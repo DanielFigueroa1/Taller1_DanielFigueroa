@@ -1,9 +1,11 @@
+@import "title";
+
 .todaPag{
     background-color: black;
     align-content: center;
     width: 990px;
     margin-left: -8px;
-    margin-top: -6px;
+    margin-top: -8px;
 }
 
 .banner{
@@ -244,7 +246,8 @@
     align-items: center;
     width: 800px;
     height: 600px;
-    background-image: linear-gradient(180deg, #000000 15.1%, rgba(0, 0, 0, 0) 21.35%, rgba(0, 0, 0, 0) 78.12%, #000000 100%), url(imagenes/blancoyNegro2.png);
+    background-size: 900px;
+    background-image: linear-gradient(180deg, #000000 15.1%, rgba(0, 0, 0, 0) 21.35%, rgba(0, 0, 0, 0) 78.12%, #000000 100%), url(/Imagenes/blancoyNegro2.png);
 
 }
 
@@ -269,7 +272,7 @@
 
 .historia__titulo__zombie2{
     position: absolute;
-    right: -120px;
+    right: -115px;
     top: -45px;
     width: 84px;
     height: 119px;
@@ -324,4 +327,130 @@
     top: -90px;
     width: 121px;
     height: 121px;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 750px;
+    background-color: #000000;
+}
+
+.galeria__titulo{
+    position: absolute;
+    font-family: Minecraft;
+    font-style: normal;
+    top: 1900px;
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+}
+
+.galeria__titulo__zombie{
+    left: -120px;
+    top: -45px;
+    position: absolute;
+    width: 84px;
+    height: 119px;
+}
+
+.galeria__titulo__zombie2{
+    right: -115px;
+    top: -45px;
+    position: absolute;
+    width: 84px;
+    height: 119px;
+}
+
+.galeria__contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+}
+
+.galeria__contenido__marco{
+    width: 744px;
+    height: 535px;
+    top: 60px;
+    position: relative;
+}
+
+.apoyanos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 750px;
+    background-size: 800px;
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.1) 20.31%, rgba(0, 0, 0, 0.1) 92.19%, #000000 100%), url(/Imagenes/blancoynegro3.png);
+
+}
+
+.apoyanos__titulo{
+    position: absolute;
+    font-family: Minecraft;
+    font-style: normal;
+    top: 2600px;
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+}
+
+.apoyanos__titulo__zombie{
+    left: -120px;
+    top: -45px;
+    position: absolute;
+    width: 84px;
+    height: 119px;
+}
+
+.apoyanos__titulo__zombie2{
+    right: -115px;
+    top: -45px;
+    position: absolute;
+    width: 84px;
+    height: 119px;
+}
+
+.apoyanos__contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+}
+/*absolute cuando quiero algo flotando*/
+.apoyanos__contenido__estandar{
+    font-family: Minecraft;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+}
+
+.apoyanos__contenido__estandar__marco{
+    width: 354px;
+    height: 554px;
+    position: relative;
+    
+}
+
+.apoyanos__contenido__estandar__disco{
+    width: 142px;
+    height: 142px;
+}
+
+.apoyanos__contenido__estandar_bonos{
+    font-size: 18px;
+}
+
+.apoyanos__contenido__estandar__comprar{
+    width: 146px;
+    height: 46px;
 }

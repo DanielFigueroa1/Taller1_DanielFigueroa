@@ -1,0 +1,13 @@
+.title{
+
+    display: flex;
+    
+    &__image{
+        width: 60px;
+        
+    }
+    &__text{
+        font-family: minecraft;
+        color: white;
+    }
+}
