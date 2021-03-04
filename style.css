@@ -1,110 +1,116 @@
-.banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 800px;
-    height: 113px;
-    background-color: yellow;
-    
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 800px;
+  height: 113px;
+  background-color: yellow;
 }
 
-.banner__image{
-    width: 84px;
-    height: 84px;
-    
+.banner__image {
+  width: 84px;
+  height: 84px;
 }
 
-.banner__title{
-
-    margin-left: 20px;
-    margin-top: 20px;
-    font-family: Minecraft;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    color: #000000;
+.banner__title {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: Minecraft;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  color: #000000;
 }
 
-.barraNav{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    
-    width: 800px;
-    height: 57px;
-    background: #000000;
-    border: 5px solid #000000;
-    box-sizing: border-box;
-    
+.barraNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 800px;
+  height: 57px;
+  background: #000000;
+  border: 5px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.barraNav__navHome{
-    width: 131px;
-    height: 57px;
-    left: 127px;
-    margin-top: 35px;
-    font-family: Minecraft;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 26px;
-
-    color: white;
+.barraNav__navHome {
+  width: 131px;
+  height: 57px;
+  left: 127px;
+  margin-top: 35px;
+  font-family: Minecraft;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  color: white;
 }
 
-.barraNav__navAbout{
-
-    width: 131px;
-    height: 57px;
-    left: 127px;
-    margin-top: 35px;
-    font-family: Minecraft;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 26px;
-  
-    color: white;
+.barraNav__navAbout {
+  width: 131px;
+  height: 57px;
+  left: 127px;
+  margin-top: 35px;
+  font-family: Minecraft;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  color: white;
 }
 
-.barraNav__navHistoria{
-
-    width: 131px;
-    height: 57px;
-    left: 127px;
-    margin-top: 35px;
-    font-family: Minecraft;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 26px;
-
-    
-    color: white;
+.barraNav__navHistoria {
+  width: 131px;
+  height: 57px;
+  left: 127px;
+  margin-top: 35px;
+  font-family: Minecraft;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  color: white;
 }
 
-.barraNav__navGaleria{
-
-    width: 131px;
-    height: 57px;
-    left: 127px;
-    margin-top: 35px;
-    font-family: Minecraft;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 26px;
-
-    
-    color: white;
+.barraNav__navGaleria {
+  width: 131px;
+  height: 57px;
+  left: 127px;
+  margin-top: 35px;
+  font-family: Minecraft;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  color: white;
 }
 
 .imagenNav {
-    width: 800px;
-    height: 530px;
-    
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 78.12%, #000000 94.79%), url(imagenes/BlancoynegroEdi.png);
+  width: 800px;
+  height: 530px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(78.12%, rgba(0, 0, 0, 0.1)), color-stop(94.79%, #000000)), url(imagenes/BlancoynegroEdi.png);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 78.12%, #000000 94.79%), url(imagenes/BlancoynegroEdi.png);
 }
+/*# sourceMappingURL=style.css.map */
