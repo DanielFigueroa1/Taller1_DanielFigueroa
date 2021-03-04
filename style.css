@@ -1,3 +1,12 @@
+.todaPag {
+  background-color: black;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 990px;
+  margin-left: -8px;
+  margin-top: -6px;
+}
+
 .banner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,5 +332,68 @@
   top: -45px;
   width: 84px;
   height: 119px;
+}
+
+.historia__contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+}
+
+.historia__contenido__bloque {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.historia__contenido__bloque__textoHistoria {
+  font-family: Minecraft;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFFFFF;
+  position: absolute;
+  text-align: center;
+  left: 180px;
+  top: 60px;
+}
+
+.historia__contenido__calavera {
+  position: relative;
+  top: -90px;
+  width: 121px;
+  height: 121px;
+}
+
+.historia__contenido__marco {
+  width: 478px;
+  height: 343px;
+  top: 30px;
+  position: relative;
+}
+
+.historia__contenido__calavera2 {
+  position: relative;
+  top: -90px;
+  width: 121px;
+  height: 121px;
 }
 /*# sourceMappingURL=style.css.map */
