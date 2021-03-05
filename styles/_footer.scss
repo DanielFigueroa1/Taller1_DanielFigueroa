@@ -1,6 +1,11 @@
 .footer{
     display: flex;
-
+    width: 800px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     &__textrow1{
         font-family: Minecraft;
         font-style: normal;
