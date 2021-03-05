@@ -1,0 +1,27 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 800px;
+    height: 113px;
+    background-color: yellow;
+    
+}
+
+.banner__image{
+    width: 84px;
+    height: 84px;
+    
+}
+
+.banner__title{
+
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Minecraft;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+}

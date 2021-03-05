@@ -1,0 +1,94 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 530px;
+    background-color: #000000;
+}
+
+.about__titulo{
+    position: absolute;
+    font-family: Minecraft;
+    font-style: normal;
+    top: 720px;
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+}
+
+.about__articulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.about__articulos__pelea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Minecraft;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.about__articulos__pelea__imagen{
+    position: relative;
+    width: 198px;
+    height: 178px;
+    
+}
+
+.about__articulos__pelea__imagen2{
+    position: absolute;
+    top: 870px;
+    width: 105px;
+    height: 105px;
+}
+
+.about__articulos__pelea__imagen3{
+    position: absolute;
+    top: 866px;
+    width: 105px;
+    height: 105px;
+    
+}
+.about__articulos__pelea__imagen4{
+    position: absolute;
+    top: 870px;
+    width: 105px;
+    height: 105px;
+    
+}
+
+.about__articulos__sobrevive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Minecraft;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.about__articulos__avanza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Minecraft;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}

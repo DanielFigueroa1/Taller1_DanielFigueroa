@@ -13,15 +13,6 @@
   color: white;
 }
 
-.todaPag {
-  background-color: black;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  width: 990px;
-  margin-left: -8px;
-  margin-top: -8px;
-}
-
 .banner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -305,6 +296,15 @@
   font-size: 18px;
   color: white;
   text-align: center;
+}
+
+.todaPag {
+  background-color: black;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 990px;
+  margin-left: -8px;
+  margin-top: -8px;
 }
 
 .historia {
