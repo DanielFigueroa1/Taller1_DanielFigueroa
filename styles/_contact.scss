@@ -1,0 +1,30 @@
+.contact{
+
+    display: flex;
+    
+    &__title{
+        font-family: Minecraft;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        text-align: center;
+        color: #FFFFFF;
+        border: 1px solid #000000;
+    }
+    &__image{
+        width: 140px;
+        height: 140px;
+    }
+    &__mail{
+        width: 212px;
+        height: 68px;
+        background: #FFFFFF;
+        border: 5px solid #000000;
+        
+        
+    }
+    &__button{
+        width: 212px;
+        height: 68px;
+    }
+}

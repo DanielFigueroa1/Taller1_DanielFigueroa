@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+
+    &__textrow1{
+        font-family: Minecraft;
+        font-style: normal;
+        font-size: 18px;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+    &__textrow2{
+        font-family: Minecraft;
+        font-style: normal;
+        font-size: 18px;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+    &__image1{
+        width: 46px;
+        height: 46px;
+    }
+
+    &__image2{
+        width: 46px;
+        height: 46px;
+    }
+    &__image3{
+        width: 46px;
+        height: 46px;
+    }
+}

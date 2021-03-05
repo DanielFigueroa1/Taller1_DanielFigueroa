@@ -138,8 +138,8 @@
           flex-direction: row;
   width: 800px;
   height: 530px;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(78.12%, rgba(0, 0, 0, 0.1)), color-stop(94.79%, #000000)), url(imagenes/BlancoynegroEdi.png);
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 78.12%, #000000 94.79%), url(imagenes/BlancoynegroEdi.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(78.12%, rgba(0, 0, 0, 0.1)), color-stop(94.79%, #000000)), url(/Imagenes/BlancoynegroEdi.png);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 78.12%, #000000 94.79%), url(/Imagenes/BlancoynegroEdi.png);
 }
 
 .imagenNav__flechaIzq {
@@ -159,6 +159,112 @@
   width: 38px;
   height: 60px;
   rotate: 300;
+}
+
+.historia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 800px;
+  height: 600px;
+  background-size: 900px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(15.1%, #000000), color-stop(21.35%, rgba(0, 0, 0, 0)), color-stop(78.12%, rgba(0, 0, 0, 0)), to(#000000)), url(/Imagenes/blancoyNegro2.png);
+  background-image: linear-gradient(180deg, #000000 15.1%, rgba(0, 0, 0, 0) 21.35%, rgba(0, 0, 0, 0) 78.12%, #000000 100%), url(/Imagenes/blancoyNegro2.png);
+}
+
+.historia__titulo {
+  position: absolute;
+  font-family: Minecraft;
+  font-style: normal;
+  top: 1200px;
+  font-weight: 500;
+  font-size: 36px;
+  color: white;
+}
+
+.historia__titulo__zombie {
+  position: absolute;
+  left: -120px;
+  top: -45px;
+  width: 84px;
+  height: 119px;
+}
+
+.historia__titulo__zombie2 {
+  position: absolute;
+  right: -115px;
+  top: -45px;
+  width: 84px;
+  height: 119px;
+}
+
+.historia__contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+}
+
+.historia__contenido__bloque {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.historia__contenido__bloque__textoHistoria {
+  font-family: Minecraft;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFFFFF;
+  position: absolute;
+  text-align: center;
+  left: 180px;
+  top: 60px;
+}
+
+.historia__contenido__calavera {
+  position: relative;
+  top: -90px;
+  width: 121px;
+  height: 121px;
+}
+
+.historia__contenido__marco {
+  width: 478px;
+  height: 343px;
+  top: 30px;
+  position: relative;
+}
+
+.historia__contenido__calavera2 {
+  position: relative;
+  top: -90px;
+  width: 121px;
+  height: 121px;
 }
 
 .about {
@@ -298,122 +404,7 @@
   text-align: center;
 }
 
-.todaPag {
-  background-color: black;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  width: 990px;
-  margin-left: -8px;
-  margin-top: -8px;
-}
-
-.historia {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 800px;
-  height: 600px;
-  background-size: 900px;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(15.1%, #000000), color-stop(21.35%, rgba(0, 0, 0, 0)), color-stop(78.12%, rgba(0, 0, 0, 0)), to(#000000)), url(/Imagenes/blancoyNegro2.png);
-  background-image: linear-gradient(180deg, #000000 15.1%, rgba(0, 0, 0, 0) 21.35%, rgba(0, 0, 0, 0) 78.12%, #000000 100%), url(/Imagenes/blancoyNegro2.png);
-}
-
-.historia__titulo {
-  position: absolute;
-  font-family: Minecraft;
-  font-style: normal;
-  top: 1200px;
-  font-weight: 500;
-  font-size: 36px;
-  color: white;
-}
-
-.historia__titulo__zombie {
-  position: absolute;
-  left: -120px;
-  top: -45px;
-  width: 84px;
-  height: 119px;
-}
-
-.historia__titulo__zombie2 {
-  position: absolute;
-  right: -115px;
-  top: -45px;
-  width: 84px;
-  height: 119px;
-}
-
-.historia__contenido {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  position: relative;
-}
-
-.historia__contenido__bloque {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
-.historia__contenido__bloque__textoHistoria {
-  font-family: Minecraft;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  color: #FFFFFF;
-  position: absolute;
-  text-align: center;
-  left: 180px;
-  top: 60px;
-}
-
-.historia__contenido__calavera {
-  position: relative;
-  top: -90px;
-  width: 121px;
-  height: 121px;
-}
-
-.historia__contenido__marco {
-  width: 478px;
-  height: 343px;
-  top: 30px;
-  position: relative;
-}
-
-.historia__contenido__calavera2 {
-  position: relative;
-  top: -90px;
-  width: 121px;
-  height: 121px;
-}
-
-.galeria {
+.gallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -476,6 +467,91 @@
   height: 535px;
   top: 60px;
   position: relative;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__title {
+  font-family: Minecraft;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  border: 1px solid #000000;
+}
+
+.contact__image {
+  width: 140px;
+  height: 140px;
+}
+
+.contact__mail {
+  width: 212px;
+  height: 68px;
+  background: #FFFFFF;
+  border: 5px solid #000000;
+}
+
+.contact__button {
+  width: 212px;
+  height: 68px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__textrow1 {
+  font-family: Minecraft;
+  font-style: normal;
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.footer__textrow2 {
+  font-family: Minecraft;
+  font-style: normal;
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.footer__image1 {
+  width: 46px;
+  height: 46px;
+}
+
+.footer__image2 {
+  width: 46px;
+  height: 46px;
+}
+
+.footer__image3 {
+  width: 46px;
+  height: 46px;
+}
+
+.todaPag {
+  background-color: black;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 990px;
+  margin-left: -8px;
+  margin-top: -8px;
 }
 
 .apoyanos {
