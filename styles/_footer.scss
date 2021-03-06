@@ -24,6 +24,30 @@
         color: white;
     }
 
+    &__column2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__textrow3{
+        font-family: Minecraft;
+        font-style: normal;
+        font-size: 18px;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+    &__textrow4{
+        font-family: Minecraft;
+        font-style: normal;
+        font-size: 18px;
+        align-items: center;
+        text-align: center;
+        color: white; 
+    }
+
     &__image1{
         width: 46px;
         height: 46px;
@@ -36,5 +60,11 @@
     &__image3{
         width: 46px;
         height: 46px;
+    }
+
+    
+    &__images{
+        display: flex;
+        flex-direction: row;
     }
 }

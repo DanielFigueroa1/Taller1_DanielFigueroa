@@ -539,6 +539,41 @@
   color: white;
 }
 
+.footer__column2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__textrow3 {
+  font-family: Minecraft;
+  font-style: normal;
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.footer__textrow4 {
+  font-family: Minecraft;
+  font-style: normal;
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+}
+
 .footer__image1 {
   width: 46px;
   height: 46px;
@@ -552,6 +587,16 @@
 .footer__image3 {
   width: 46px;
   height: 46px;
+}
+
+.footer__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .todaPag {
