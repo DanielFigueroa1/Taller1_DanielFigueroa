@@ -29,7 +29,8 @@
           flex-direction: row;
   width: 800px;
   height: 113px;
-  background-color: yellow;
+  background-size: 800px, 113px;
+  background-image: url(/Imagenes/cuadradosWeb.png);
 }
 
 .banner__image {
@@ -51,10 +52,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -65,103 +62,101 @@
   width: 800px;
   height: 57px;
   background: #000000;
-  border: 5px solid #000000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.barraNav__navHome {
-  width: 131px;
-  height: 57px;
-  left: 127px;
-  margin-top: 35px;
-  font-family: Minecraft;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 26px;
-  color: white;
-}
-
-.barraNav__navAbout {
-  width: 131px;
-  height: 57px;
-  left: 127px;
-  margin-top: 35px;
-  font-family: Minecraft;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 26px;
-  color: white;
-}
-
-.barraNav__navHistoria {
-  width: 131px;
-  height: 57px;
-  left: 127px;
-  margin-top: 35px;
-  font-family: Minecraft;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 26px;
-  color: white;
-}
-
-.barraNav__navGaleria {
-  width: 131px;
-  height: 57px;
-  left: 127px;
-  margin-top: 35px;
-  font-family: Minecraft;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 26px;
-  color: white;
-}
-
-.imagenNav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: Minecraft;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  color: white;
+}
+
+.barraNav__navHome {
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.barraNav__navAbout {
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.barraNav__navStory {
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.barraNav__navGallery {
+  margin-top: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.imageNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 800px;
   height: 530px;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(78.12%, rgba(0, 0, 0, 0.1)), color-stop(94.79%, #000000)), url(/Imagenes/BlancoynegroEdi.png);
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 78.12%, #000000 94.79%), url(/Imagenes/BlancoynegroEdi.png);
 }
 
-.imagenNav__flechaIzq {
+.imageNav__frame__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.imageNav__frame {
+  width: 600px;
+  height: 300px;
+  margin-top: -60px;
+}
+
+.imageNav__frame__row2 {
+  width: 500px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: absolute;
-  left: 150px;
+  margin-top: -60px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.imageNav__leftArrow {
   width: 38px;
   height: 60px;
 }
 
-.imagenNav__contenido {
-  position: absolute;
-}
-
-.imagenNav__flechaDer {
-  position: absolute;
-  left: 620px;
+.imageNav__rightArrow {
   width: 38px;
   height: 60px;
   rotate: 300;
 }
 
-.historia {
+.history {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,7 +173,7 @@
   background-image: linear-gradient(180deg, #000000 15.1%, rgba(0, 0, 0, 0) 21.35%, rgba(0, 0, 0, 0) 78.12%, #000000 100%), url(/Imagenes/blancoyNegro2.png);
 }
 
-.historia__titulo {
+.history__title {
   position: absolute;
   font-family: Minecraft;
   font-style: normal;
@@ -188,7 +183,7 @@
   color: white;
 }
 
-.historia__titulo__zombie {
+.history__titulo__zombie {
   position: absolute;
   left: -120px;
   top: -45px;
@@ -196,7 +191,7 @@
   height: 119px;
 }
 
-.historia__titulo__zombie2 {
+.history__titulo__zombie2 {
   position: absolute;
   right: -115px;
   top: -45px;
@@ -204,7 +199,7 @@
   height: 119px;
 }
 
-.historia__contenido {
+.history__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -221,7 +216,7 @@
   position: relative;
 }
 
-.historia__contenido__bloque {
+.history__contenido__bloque {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -234,7 +229,7 @@
           align-items: baseline;
 }
 
-.historia__contenido__bloque__textoHistoria {
+.history__contenido__bloque__textoHistoria {
   font-family: Minecraft;
   font-style: normal;
   font-weight: 500;
@@ -246,21 +241,21 @@
   top: 60px;
 }
 
-.historia__contenido__calavera {
+.history__contenido__calavera {
   position: relative;
   top: -90px;
   width: 121px;
   height: 121px;
 }
 
-.historia__contenido__marco {
+.history__contenido__marco {
   width: 478px;
   height: 343px;
   top: 30px;
   position: relative;
 }
 
-.historia__contenido__calavera2 {
+.history__contenido__calavera2 {
   position: relative;
   top: -90px;
   width: 121px;
@@ -469,145 +464,6 @@
   position: relative;
 }
 
-.contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.contact__title {
-  font-family: Minecraft;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  text-align: center;
-  color: #FFFFFF;
-  border: 1px solid #000000;
-}
-
-.contact__image {
-  width: 140px;
-  height: 140px;
-}
-
-.contact__mail {
-  width: 212px;
-  height: 68px;
-  background: #FFFFFF;
-  border: 5px solid #000000;
-}
-
-.contact__button {
-  width: 212px;
-  height: 68px;
-}
-
-.footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 800px;
-  height: 170px;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.footer__textrow1 {
-  font-family: Minecraft;
-  font-style: normal;
-  font-size: 18px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  color: white;
-}
-
-.footer__textrow2 {
-  font-family: Minecraft;
-  font-style: normal;
-  font-size: 18px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  color: white;
-}
-
-.footer__column2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.footer__textrow3 {
-  font-family: Minecraft;
-  font-style: normal;
-  font-size: 18px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  color: white;
-}
-
-.footer__textrow4 {
-  font-family: Minecraft;
-  font-style: normal;
-  font-size: 18px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  color: white;
-}
-
-.footer__image1 {
-  width: 46px;
-  height: 46px;
-}
-
-.footer__image2 {
-  width: 46px;
-  height: 46px;
-}
-
-.footer__image3 {
-  width: 46px;
-  height: 46px;
-}
-
-.footer__images {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.todaPag {
-  background-color: black;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  width: 990px;
-  margin-left: -8px;
-  margin-top: -8px;
-}
-
 .apoyanos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -697,5 +553,167 @@
 .apoyanos__contenido__estandar__comprar {
   width: 146px;
   height: 46px;
+}
+
+.contact {
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact__title {
+  font-family: Minecraft;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  border: 1px solid #000000;
+}
+
+.contact__image {
+  width: 140px;
+  height: 140px;
+}
+
+.contact__row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.contact__mail {
+  background: #FFFFFF;
+  border: 5px solid #000000;
+}
+
+.contact__button {
+  width: 212px;
+  height: 68px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 800px;
+  height: 170px;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: 800px, 170px;
+  background-image: url(/Imagenes/cuadradosWeb2.png);
+}
+
+.footer__textrow1 {
+  font-family: Minecraft;
+  font-style: normal;
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.footer__textrow2 {
+  font-family: Minecraft;
+  font-style: normal;
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.footer__column2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__textrow3 {
+  font-family: Minecraft;
+  font-style: normal;
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.footer__textrow4 {
+  font-family: Minecraft;
+  font-style: normal;
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.footer__images {
+  width: 204px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__image1 {
+  width: 46px;
+  height: 46px;
+}
+
+.footer__image2 {
+  width: 46px;
+  height: 46px;
+}
+
+.footer__image3 {
+  width: 46px;
+  height: 46px;
+}
+
+.todaPag {
+  background-color: black;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 990px;
+  margin-left: -8px;
+  margin-top: -8px;
 }
 /*# sourceMappingURL=style.css.map */

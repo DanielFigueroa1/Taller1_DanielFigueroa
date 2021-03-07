@@ -27,6 +27,7 @@
 
 <nav class="barraNav">
 
+    
     <article class="barraNav__navHome">
         Home
     </article>
@@ -35,20 +36,24 @@
         About
     </article>
 
-    <article class="barraNav__navHistoria">
+    <article class="barraNav__navStory">
         Historia
     </article>
 
-    <article class="barraNav__navGaleria">
+    <article class="barraNav__navGallery">
         Galeria
     </article>
 </nav>
 
-<section class="imagenNav">
-    <img class="imagenNav__marco" src="./Imagenes/marcoIntro.png">
-    <img class="imagenNav__flechaIzq" src="./Imagenes/flecha.png">
-    <img class="imagenNav__contenido" src="./Imagenes/IconoIntro1.png">
-    <img class="imagenNav__flechaDer" src="./Imagenes/flecha2.png">
+<section class="imageNav">
+    <article class="imageNav__frame__row">
+        <img class="imageNav__frame" src="./Imagenes/marcoIntro.png">
+    </article>
+    <article class="imageNav__frame__row2">
+        <img class="imageNav__leftArrow" src="./Imagenes/flecha.png">
+        <img class="imageNav__content" src="./Imagenes/IconoIntro1.png">
+        <img class="imageNav__rightArrow" src="./Imagenes/flecha2.png">
+    </article>
 </section>
 
 <section class="about">
@@ -90,19 +95,19 @@
 
 </section>
 
-<section class="historia">
-    <article class="historia__titulo">
-        <img class="historia__titulo__zombie" src="./Imagenes/cabezaZombie.png">
+<section class="history">
+    <article class="history__title">
+        <img class="history__titulo__zombie" src="./Imagenes/cabezaZombie.png">
     Historia
-        <img class="historia__titulo__zombie2" src="./Imagenes/cabezaZombie.png">
+        <img class="history__titulo__zombie2" src="./Imagenes/cabezaZombie.png">
     </article>
-    <article class="historia__contenido">
-        <article class="historia__contenido__bloque">
-            <img class="historia__contenido__calavera" src="./Imagenes/calavera.png">
+    <article class="history__content">
+        <article class="history__contenido__bloque">
+            <img class="history__contenido__calavera" src="./Imagenes/calavera.png">
             
                 
-                <img class="historia__contenido__marco" src="./Imagenes/marcosGrandes5.png">
-                <p class="historia__contenido__bloque__textoHistoria">En un dia todo se volvio un<br>
+                <img class="history__contenido__marco" src="./Imagenes/marcosGrandes5.png">
+                <p class="history__contenido__bloque__textoHistoria">En un dia todo se volvio un<br>
                     caos total, despertaste en tu<br>
                     cuarto y no encontraste nadie,<br>
                     creiste que era una pesadilla<br>
@@ -112,7 +117,7 @@
                     con todas las probabilidades<br>
                     en tu contra.<br>
                     </p>
-            <img class="historia__contenido__calavera2" src="./Imagenes/calavera.png">
+            <img class="history__contenido__calavera2" src="./Imagenes/calavera.png">
         </article>
     </article>
 </section>
@@ -160,8 +165,10 @@
     proyecto
     </p>
     <img class="contact__image" src="./Imagenes/iconosGrandes4.png">
-    <input type="contact__mail" placeholder="tu correo aqui">
-    <img class="contact__button" src="./Imagenes/botonContacto.png">
+    <div class="contact__row">
+        <input type="contact__mail" placeholder="tu correo aqui">
+        <img class="contact__button" src="./Imagenes/botonContacto.png">
+    </div>
 </section>
 
 <footer class="footer">

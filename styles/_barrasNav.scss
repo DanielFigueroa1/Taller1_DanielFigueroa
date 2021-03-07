@@ -1,75 +1,37 @@
 .barraNav{
     display: flex;
-    position: relative;
-    justify-content: center;
     align-items: center;
     flex-direction: row;
-    
     width: 800px;
     height: 57px;
     background: #000000;
-    border: 5px solid #000000;
-    box-sizing: border-box;
+    justify-content: center;
+    font-family: Minecraft;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    color: white;
+
+    &__navHome{
+        margin-top: 5px;
+        margin-left: 50px;
+    }
     
-}
-
-.barraNav__navHome{
-    width: 131px;
-    height: 57px;
-    left: 127px;
-    margin-top: 35px;
-    font-family: Minecraft;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 26px;
-
-    color: white;
-}
-
-.barraNav__navAbout{
-
-    width: 131px;
-    height: 57px;
-    left: 127px;
-    margin-top: 35px;
-    font-family: Minecraft;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 26px;
-  
-    color: white;
-}
-
-.barraNav__navHistoria{
-
-    width: 131px;
-    height: 57px;
-    left: 127px;
-    margin-top: 35px;
-    font-family: Minecraft;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 26px;
-
+    &__navAbout{
+        margin-top: 5px;
+        margin-left: 50px;
+    }
     
-    color: white;
-}
-
-.barraNav__navGaleria{
-
-    width: 131px;
-    height: 57px;
-    left: 127px;
-    margin-top: 35px;
-    font-family: Minecraft;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 26px;
-
+    &__navStory{
+        margin-top: 5px;
+        margin-left: 50px;
+    }
     
-    color: white;
+    &__navGallery{
+        margin-top: 5px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
+
