@@ -1,75 +1,93 @@
-.apoyanos{
+.support{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     width: 800px;
-    height: 750px;
-    background-size: 800px;
+    height: 1368px;
+    background-size: 800px 1368px;
     background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.1) 20.31%, rgba(0, 0, 0, 0.1) 92.19%, #000000 100%), url(/Imagenes/blancoynegro3.png);
-
-}
-
-.apoyanos__titulo{
-    position: absolute;
     font-family: Minecraft;
     font-style: normal;
-    top: 2600px;
-    font-weight: 500;
-    font-size: 36px;
     color: white;
-}
-
-.apoyanos__titulo__zombie{
-    left: -120px;
-    top: -45px;
-    position: absolute;
-    width: 84px;
-    height: 119px;
-}
-
-.apoyanos__titulo__zombie2{
-    right: -115px;
-    top: -45px;
-    position: absolute;
-    width: 84px;
-    height: 119px;
-}
-
-.apoyanos__contenido{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    position: relative;
-}
-/*absolute cuando quiero algo flotando*/
-.apoyanos__contenido__estandar{
-    font-family: Minecraft;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    color: #FFFFFF;
-    position: absolute;
     text-align: center;
+
+    &__title{
+        
+        display: flex;
+        width: 900px;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 36px;
+        margin-top: -60px;
+
+        &__zombie{
+            width: 84px;
+            height: 119px;
+        }
+        
+    }
+
+    &__content{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        width: 736px; //736 o 740
+        height: 554px;
+        margin-top: 60px;
+        
+
+        &__standard{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 354px;
+            height: 554px;
+            margin-right: 24px;
+            background-size: 354px 554px;
+            background-image: url(/Imagenes/marcosGrandes1.png);
+        }
+            
+        &__premium{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 354px;
+            height: 554px;
+            background-size: 354px 554px;
+            background-image: url(/Imagenes/marcosGrandes1.png);
+            
+        }
+
+            &__image{
+                width: 142px;
+                height: 142px;
+            }
+            
+            &__text{
+                font-size: 24px;
+            }
+
+            &__text2{
+                font-size: 24px;
+            }
+
+            &__text3{
+                font-size: 18px;
+            }
+            
+            &__button{
+                width: 146px;
+                height: 46px;
+            }
+        
+    }
+
 }
 
-.apoyanos__contenido__estandar__marco{
-    width: 354px;
-    height: 554px;
-    position: relative;
-    
-}
 
-.apoyanos__contenido__estandar__disco{
-    width: 142px;
-    height: 142px;
-}
+/*absolute cuando quiero algo flotando*/
 
-.apoyanos__contenido__estandar_bonos{
-    font-size: 18px;
-}
-
-.apoyanos__contenido__estandar__comprar{
-    width: 146px;
-    height: 46px;
-}

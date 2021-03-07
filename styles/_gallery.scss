@@ -1,49 +1,45 @@
 .gallery{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     width: 800px;
     height: 750px;
     background-color: #000000;
+
+    &__title{
+        display: flex;
+        font-family: Minecraft;
+        font-style: normal;
+        font-size: 36px;
+        color: white;
+        width: 900px;
+        justify-content: space-around;
+        align-items: center;
+    
+        &__zombie{
+            width: 84px;
+            height: 119px;
+        }
+    }
+
+    &__content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        width: 744px;
+        height: 535px;
+        background-size: 744px 535px;
+        background-image: url(/Imagenes/marcosGrandes5.png);
+
+        &__image{
+            width: 50px;
+            
+        }
+    }
 }
 
-.galeria__titulo{
-    position: absolute;
-    font-family: Minecraft;
-    font-style: normal;
-    top: 1900px;
-    font-weight: 500;
-    font-size: 36px;
-    color: white;
-}
 
-.galeria__titulo__zombie{
-    left: -120px;
-    top: -45px;
-    position: absolute;
-    width: 84px;
-    height: 119px;
-}
 
-.galeria__titulo__zombie2{
-    right: -115px;
-    top: -45px;
-    position: absolute;
-    width: 84px;
-    height: 119px;
-}
 
-.galeria__contenido{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    position: relative;
-}
-
-.galeria__contenido__marco{
-    width: 744px;
-    height: 535px;
-    top: 60px;
-    position: relative;
-}

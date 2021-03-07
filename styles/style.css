@@ -1,3 +1,22 @@
+.fullPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: black;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1000px;
+  margin-left: -8px;
+  margin-top: -8px;
+}
+
 .title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -354,8 +373,22 @@
 
 .about__articles__image {
   width: 105px;
+}
+
+.about__articles__frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  height: 180px;
   background-size: 200px 180px;
   background-image: url(/Imagenes/marcosGrandes2.png);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .about__articles__text {
@@ -371,9 +404,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -382,39 +419,33 @@
   background-color: #000000;
 }
 
-.galeria__titulo {
-  position: absolute;
-  font-family: Minecraft;
-  font-style: normal;
-  top: 1900px;
-  font-weight: 500;
-  font-size: 36px;
-  color: white;
-}
-
-.galeria__titulo__zombie {
-  left: -120px;
-  top: -45px;
-  position: absolute;
-  width: 84px;
-  height: 119px;
-}
-
-.galeria__titulo__zombie2 {
-  right: -115px;
-  top: -45px;
-  position: absolute;
-  width: 84px;
-  height: 119px;
-}
-
-.galeria__contenido {
+.gallery__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  font-family: Minecraft;
+  font-style: normal;
+  font-size: 36px;
+  color: white;
+  width: 900px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gallery__title__zombie {
+  width: 84px;
+  height: 119px;
+}
+
+.gallery__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -422,66 +453,67 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  position: relative;
-}
-
-.galeria__contenido__marco {
   width: 744px;
   height: 535px;
-  top: 60px;
-  position: relative;
+  background-size: 744px 535px;
+  background-image: url(/Imagenes/marcosGrandes5.png);
 }
 
-.apoyanos {
+.gallery__content__image {
+  width: 50px;
+}
+
+.support {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   width: 800px;
-  height: 750px;
-  background-size: 800px;
+  height: 1368px;
+  background-size: 800px 1368px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(20.31%, rgba(0, 0, 0, 0.1)), color-stop(92.19%, rgba(0, 0, 0, 0.1)), to(#000000)), url(/Imagenes/blancoynegro3.png);
   background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.1) 20.31%, rgba(0, 0, 0, 0.1) 92.19%, #000000 100%), url(/Imagenes/blancoynegro3.png);
-}
-
-.apoyanos__titulo {
-  position: absolute;
   font-family: Minecraft;
   font-style: normal;
-  top: 2600px;
-  font-weight: 500;
-  font-size: 36px;
   color: white;
+  text-align: center;
 }
 
-.apoyanos__titulo__zombie {
-  left: -120px;
-  top: -45px;
-  position: absolute;
-  width: 84px;
-  height: 119px;
-}
-
-.apoyanos__titulo__zombie2 {
-  right: -115px;
-  top: -45px;
-  position: absolute;
-  width: 84px;
-  height: 119px;
-}
-
-.apoyanos__contenido {
+.support__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 900px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 36px;
+  margin-top: -60px;
+}
+
+.support__title__zombie {
+  width: 84px;
+  height: 119px;
+}
+
+.support__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -489,42 +521,78 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  position: relative;
+  width: 736px;
+  height: 554px;
+  margin-top: 60px;
 }
 
-/*absolute cuando quiero algo flotando*/
-.apoyanos__contenido__estandar {
-  font-family: Minecraft;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  color: #FFFFFF;
-  position: absolute;
-  text-align: center;
-}
-
-.apoyanos__contenido__estandar__marco {
+.support__content__standard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 354px;
   height: 554px;
-  position: relative;
+  margin-right: 24px;
+  background-size: 354px 554px;
+  background-image: url(/Imagenes/marcosGrandes1.png);
 }
 
-.apoyanos__contenido__estandar__disco {
+.support__content__premium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 354px;
+  height: 554px;
+  background-size: 354px 554px;
+  background-image: url(/Imagenes/marcosGrandes1.png);
+}
+
+.support__content__image {
   width: 142px;
   height: 142px;
 }
 
-.apoyanos__contenido__estandar_bonos {
+.support__content__text {
+  font-size: 24px;
+}
+
+.support__content__text2 {
+  font-size: 24px;
+}
+
+.support__content__text3 {
   font-size: 18px;
 }
 
-.apoyanos__contenido__estandar__comprar {
+.support__content__button {
   width: 146px;
   height: 46px;
 }
 
+/*absolute cuando quiero algo flotando*/
 .contact {
   width: 800px;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -535,9 +603,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: -700px;
+  margin-bottom: 40px;
 }
 
 .contact__title {
@@ -551,18 +621,22 @@
 }
 
 .contact__image {
+  margin-top: -40px;
   width: 140px;
   height: 140px;
 }
 
 .contact__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contact__mail {
@@ -573,6 +647,22 @@
 .contact__button {
   width: 212px;
   height: 68px;
+}
+
+.contact__row2 {
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contact__row2__zombie {
+  width: 84px;
+  height: 119px;
 }
 
 .footer {
@@ -674,24 +764,5 @@
 .footer__image3 {
   width: 46px;
   height: 46px;
-}
-
-.todaPag {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: black;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 990px;
-  margin-left: -8px;
-  margin-top: -8px;
 }
 /*# sourceMappingURL=style.css.map */

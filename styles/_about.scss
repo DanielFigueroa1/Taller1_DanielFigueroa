@@ -64,10 +64,19 @@
 
                 &__image{
                     width: 105px;
-                    background-size: 200px 180px;
-                    background-image: url(/Imagenes/marcosGrandes2.png);
+                    
                     
             
+                }
+
+                &__frame{
+                    display: flex;
+                    width: 200px;
+                    height: 180px;
+                    background-size: 200px 180px;
+                    background-image: url(/Imagenes/marcosGrandes2.png);
+                    justify-content: center;
+                    align-items: center;
                 }
                 &__text{
             

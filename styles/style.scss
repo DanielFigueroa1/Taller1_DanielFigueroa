@@ -1,3 +1,4 @@
+@import "fullPage";
 @import "title";
 @import "banner";
 @import "barrasNav";
@@ -9,16 +10,7 @@
 @import "contact";
 @import "footer";
 
-.todaPag{
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    align-content: center;
-    justify-content: center;
-    width: 990px;
-    margin-left: -8px;
-    margin-top: -8px;
-}
+
 
 
 
