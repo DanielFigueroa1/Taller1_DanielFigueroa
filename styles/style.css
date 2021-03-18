@@ -440,7 +440,40 @@
   height: 119px;
 }
 
+.gallery__frame {
+  width: 744px;
+  height: 535px;
+  background-size: 744px 535px;
+  background-image: url(/Imagenes/marcosGrandes5.png);
+}
+
 .gallery__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 70px;
+  width: 744px;
+  height: 400px;
+}
+
+.gallery__content__image1 {
+  width: 60px;
+}
+
+.gallery__content__image {
+  width: 90px;
+}
+
+.gallery__content__row1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -453,14 +486,39 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 744px;
-  height: 535px;
-  background-size: 744px 535px;
-  background-image: url(/Imagenes/marcosGrandes5.png);
+  width: 600px;
 }
 
-.gallery__content__image {
-  width: 90px;
+.gallery__content__row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 600px;
+}
+
+.gallery__content__row3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 600px;
 }
 
 .support {
@@ -568,6 +626,7 @@
 }
 
 .support__content__image {
+  margin-bottom: -20px;
   width: 142px;
   height: 142px;
 }
@@ -617,7 +676,6 @@
   font-size: 36px;
   text-align: center;
   color: #FFFFFF;
-  border: 1px solid #000000;
 }
 
 .contact__image {

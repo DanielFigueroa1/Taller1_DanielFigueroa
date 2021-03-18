@@ -48,6 +48,11 @@
             margin-right: 24px;
             background-size: 354px 554px;
             background-image: url(/Imagenes/marcosGrandes1.png);
+
+            &__content{
+                
+                
+            }
         }
             
         &__premium{
@@ -59,10 +64,16 @@
             height: 554px;
             background-size: 354px 554px;
             background-image: url(/Imagenes/marcosGrandes1.png);
+
+            &__content{
+                
+                
+            }
             
         }
 
             &__image{
+                margin-bottom: -20px;
                 width: 142px;
                 height: 142px;
             }

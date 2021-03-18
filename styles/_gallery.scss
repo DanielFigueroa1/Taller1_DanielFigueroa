@@ -23,18 +23,61 @@
         }
     }
 
-    &__content{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row;
+    &__frame{
         width: 744px;
         height: 535px;
         background-size: 744px 535px;
         background-image: url(/Imagenes/marcosGrandes5.png);
 
+    }
+
+    &__content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 70px;
+        width: 744px;
+        height: 400px;
+        
+        
+        &__image1{
+            width: 60px;
+            
+        }
+
         &__image{
             width: 90px;
+            
+        }
+
+        &__row1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        
+        width: 600px;
+        
+        }
+
+        &__row2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;
+            
+            width: 600px;
+                
+        }
+
+        &__row3{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;
+            
+            width: 600px;
             
         }
     }
