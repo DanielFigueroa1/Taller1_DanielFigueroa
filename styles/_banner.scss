@@ -32,3 +32,11 @@
     color: #000000;
 }
 
+@media screen and (max-width: 800px) {
+    .banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
