@@ -1,0 +1,17 @@
+.announcement{
+    
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    
+    &__image{
+        width: 50%;
+    }
+    
+    &__imageButton{
+        margin-left: -70px;
+        margin-top: 30px;
+        width: 30px;
+        position: absolute;
+    }
+}

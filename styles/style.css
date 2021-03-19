@@ -824,6 +824,23 @@
   height: 46px;
 }
 
+.announcement {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+.announcement__image {
+  width: 50%;
+}
+
+.announcement__imageButton {
+  margin-left: -70px;
+  margin-top: 30px;
+  width: 30px;
+  position: absolute;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
