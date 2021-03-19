@@ -1,9 +1,12 @@
 const imageNav__leftArrow = document.querySelector(".imageNav__leftArrow"); //const no cambia, var si, referenciar la imagen
 const imageNav__content = document.querySelector(".imageNav__content");
 const imageNav__rightArrow = document.querySelector(".imageNav__rightArrow");
+const announcement__image = document.querySelector(".announcement__image");
+const announcement__imageButton = document.querySelector(".announcement__imageButton");
 
 var zombie = document.querySelectorAll(".zombie")
 
+var imageAnnouncement = 0;
 
 var imageNumber = 0;
 imageNav__leftArrow.addEventListener("click", ()=>{
@@ -17,6 +20,17 @@ imageNav__leftArrow.addEventListener("click", ()=>{
     manageImage();
     }
 );
+
+announcement__imageButton.addEventListener("click", ()=>{
+
+    if (imageAnnouncement < 1){
+        imageAnnouncement = 0 
+    } else {
+        imageAnnouncement++;
+    }
+
+    hideImage();
+});
 
 imageNav__content.addEventListener("click", ()=>{
     switch (imageNumber) {
@@ -63,6 +77,19 @@ function manageImage (){
             imageNav__content.setAttribute("src","./Imagenes/Iconointro3.png");
     }
 
+}
+
+function hideImage (){
+    switch (imageAnnouncement) {
+        case 0:
+            announcement__image.setAttribute("src","./Imagenes/announcement__image.png");
+            announcement__imageButton.setAttribute("src","./Imagenes/announcement__imageButton.png"); 
+            break;
+            case 1:
+                document.getElementById(announcement__image).style.display = 'none';
+                document.getElementById(announcement__imageButton).style.display = 'none';
+
+    }
 }
 
 document.addEventListener('click', function(e){
