@@ -13,8 +13,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 800px;
-  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .fullPage {
+    width: 100%;
+  }
 }
 
 .title {
@@ -842,6 +846,7 @@
   position: fixed;
   bottom: 10px;
   left: 10px;
+  display: none;
 }
 
 .announcement__image {
@@ -858,14 +863,15 @@
 }
 
 body {
-  max-width: 800px;
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0px;
   background-color: black;
 }
@@ -877,8 +883,9 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 1200px;
-  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: black;
 }
 /*# sourceMappingURL=style.css.map */

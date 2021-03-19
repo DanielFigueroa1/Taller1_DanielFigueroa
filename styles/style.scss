@@ -12,10 +12,10 @@
 @import "announcement";
 
 body{
-    max-width: 800px;
-    width: 100%;
+    
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 0px;
     background-color: black;
 
@@ -24,8 +24,7 @@ body{
 html{
     display: flex;
     justify-content: center;
-    max-width: 1200px;
-    width: 100%;
+    align-items: center;
     background-color: black; 
 }
 

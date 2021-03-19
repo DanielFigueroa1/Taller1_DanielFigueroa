@@ -1,9 +1,16 @@
-.fullPage{
+.fullPage{ //esto no se toca y seria para pagina web
     display: flex;
     flex-direction: column;
     background-color: black;
     align-items: center;
     justify-content: center;
-    max-width: 800px;
-    width: 100%;
+
+    
+}
+
+@media screen and (max-width: 800px) { //cuando mi pantalla tiene una medida hacer esto.....
+    .fullPage{
+        width: 100%;
+    }
+    
 }
