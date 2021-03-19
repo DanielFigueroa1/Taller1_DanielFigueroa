@@ -4,11 +4,11 @@ const imageNav__rightArrow = document.querySelector(".imageNav__rightArrow");
 const announcement__image = document.querySelector(".announcement__image");
 const announcement__imageButton = document.querySelector(".announcement__imageButton");
 
-var zombie = document.querySelectorAll(".zombie")
+let zombie = document.querySelectorAll(".zombie")
 
-var imageAnnouncement = 0;
+let imageAnnouncement = 0;
 
-var imageNumber = 0;
+let imageNumber = 0;
 imageNav__leftArrow.addEventListener("click", ()=>{
 
     if (imageNumber < 0){

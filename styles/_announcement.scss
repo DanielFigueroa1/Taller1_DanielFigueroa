@@ -5,13 +5,15 @@
     left: 10px;
     
     &__image{
+        max-width: 500px;
         width: 50%;
     }
     
     &__imageButton{
         margin-left: -70px;
         margin-top: 30px;
-        width: 30px;
+        max-width: 30px;
+        width: 100%;
         position: absolute;
     }
 }

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 800px;
+    width: 100%;
     height: 1368px;
     background-size: 800px 1368px;
     background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.1) 20.31%, rgba(0, 0, 0, 0.1) 92.19%, #000000 100%), url(/Imagenes/blancoynegro3.png);
@@ -33,7 +33,7 @@
         justify-content: flex-start;
         align-items: center;
         flex-direction: row;
-        width: 736px; //736 o 740
+        max-width: 736px; //736 o 740
         height: 554px;
         margin-top: 60px;
         

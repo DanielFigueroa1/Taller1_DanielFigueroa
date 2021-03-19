@@ -12,9 +12,17 @@
 @import "announcement";
 
 body{
-display: flex;
-margin: 0px;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    background-color: black;
 
+}
+
+html{
+    background-color: black; 
 }
 
 

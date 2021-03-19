@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 800px;
+    width: 100%;
     height: 113px;
     background-size: 800px, 113px;
     background-image: url(/Imagenes/cuadradosWeb.png);
@@ -11,13 +11,18 @@
 }
 
 .banner__image{
-    width: 84px;
-    height: 84px;
+
+    max-width: 84px;
+    max-height: 84px;
+    width: 100%;
     
 }
 
 .banner__title{
 
+    max-width: 285px;
+    max-height: 52px;
+    width: 100%;
     margin-left: 20px;
     margin-top: 20px;
     font-family: Minecraft;
