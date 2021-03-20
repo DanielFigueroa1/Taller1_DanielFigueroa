@@ -1,5 +1,5 @@
 @import "fullPage";
-@import "title";
+//@import "title";
 @import "banner";
 @import "barrasNav";
 @import "imageNav";
@@ -13,19 +13,23 @@
 
 body{
     
+    
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px;
     background-color: black;
+    overflow-x:hidden 
 
 }
 
 html{
+    
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black; 
+    overflow-x:hidden 
 }
 
 

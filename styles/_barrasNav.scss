@@ -5,7 +5,7 @@
     width: 100%;
     height: 57px;
     background: #000000;
-    justify-content: center;
+    justify-content: space-evenly;
     font-family: Minecraft;
     font-style: normal;
     font-weight: 500;
@@ -13,25 +13,25 @@
     line-height: 26px;
     color: white;
 
-    &__navHome{
-        margin-top: 5px;
-        margin-left: 50px;
-    }
+    // &__navHome{
+    //     margin-top: 5px;
+    //     margin-left: 50px;
+    // }
     
-    &__navAbout{
-        margin-top: 5px;
-        margin-left: 50px;
-    }
+    // &__navAbout{
+    //     margin-top: 5px;
+    //     margin-left: 50px;
+    // }
     
-    &__navStory{
-        margin-top: 5px;
-        margin-left: 50px;
-    }
+    // &__navStory{
+    //     margin-top: 5px;
+    //     margin-left: 50px;
+    // }
     
-    &__navGallery{
-        margin-top: 5px;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+    // &__navGallery{
+    //     margin-top: 5px;
+    //     margin-left: 50px;
+    //     margin-right: 50px;
+    // }
 }
 

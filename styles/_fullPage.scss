@@ -1,16 +1,17 @@
-.fullPage{ //esto no se toca y seria para pagina web
+.fullPage { //esto no se toca y seria para pagina web
     display: flex;
+    width: 100%;  
     flex-direction: column;
     background-color: black;
     align-items: center;
-    justify-content: center;
-
+    
     
 }
 
-@media screen and (max-width: 800px) { //cuando mi pantalla tiene una medida hacer esto.....
+@media (max-width: 768px) {
+    //cuando mi pantalla tiene una medida hacer esto.....
     .fullPage{
-        width: 100%;
+        width: 100vw;
     }
     
 }
