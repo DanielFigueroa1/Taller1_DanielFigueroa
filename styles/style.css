@@ -34,6 +34,7 @@
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
+  padding: 10px;
   background-size: 800px, 113px;
   background-image: url(/Imagenes/cuadradosWeb.png);
 }
@@ -45,9 +46,8 @@
 }
 
 .banner__title {
-  width: 100%;
+  margin: 0px;
   margin-left: 20px;
-  margin-top: 20px;
   font-family: Minecraft;
   font-style: normal;
   font-weight: 500;
